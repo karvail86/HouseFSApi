@@ -16,7 +16,6 @@ house_app.include_router(property_doc.property_doc_router)
 house_app.include_router(reviews.review_router)
 house_app.include_router(auth.auth_router)
 
-# Инициализация админки
 setup_admin(house_app)
 
 if __name__ == '__main__':
